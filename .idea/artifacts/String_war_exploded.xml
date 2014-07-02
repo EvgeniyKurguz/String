@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="String:war exploded">
-    <output-path>$PROJECT_DIR$/target/task2</output-path>
+    <output-path>$PROJECT_DIR$/target/Text</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="String/web/Web" />
       <element id="directory" name="WEB-INF">
