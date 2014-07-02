@@ -11,7 +11,7 @@
     <div style="width:1020px;">
 
         <h3><fmt:message key="index.mytext"/></h3>
-        <h3><a href="input.txt">back</a> </h3>
+        <p><a  href="http://localhost:8088/" >Back</a></p>
         <p>
                 ${param.text}
         </p>
