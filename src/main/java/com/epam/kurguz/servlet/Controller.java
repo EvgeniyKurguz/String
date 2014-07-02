@@ -1,4 +1,4 @@
-package com.epam.servlet;
+package com.epam.kurguz.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
