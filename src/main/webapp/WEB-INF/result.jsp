@@ -2,7 +2,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<fmt:bundle basename="i18n.messages">
+<fmt:bundle basename="i18n.message">
     <html>
     <head>
         <title></title>
