@@ -1,9 +1,7 @@
 package action;
 
-import entity.Paragraph;
-import entity.Sentence;
+
 import entity.Symbol;
-import entity.Word;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
@@ -17,6 +15,6 @@ public class ParseAction implements Action {
         List<Symbol> symbols = Parser.parseToSymbols(sourceText);
         request.setAttribute("parseToSymbols", symbols);
 
-       return "/WEB-INF/result.jsp";
+        return "/WEB-INF/result.jsp";
     }
 }
