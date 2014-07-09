@@ -15,7 +15,7 @@
         <form action="${pageContext.request.contextPath}/controller" method="post">
 
             <p><textarea name="text" rows="40" cols="90">
-                <%@include file="WEB-INF/input.txt" %>
+                <%@include file="WEB-INF/input.txt"%>
             </textarea></p>
 
             <p><input type="submit" fmt:message key="index.submit"/></p>
