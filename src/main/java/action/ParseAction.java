@@ -1,16 +1,22 @@
 package action;
 
-import entity.Text;
+import entity.Paragraph;
+import entity.Sentence;
+import entity.Symbol;
+import entity.Word;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 
 public class ParseAction implements Action {
     @Override
     public String execute(HttpServletRequest request) {
-        String text = request.getParameter("textaria");
+        String sourceText = request.getParameter("text");
 
-        request.setAttribute("text", text);
-        return "WEB-INF/index.jsp";
+        List<Symbol> symbols = Parser.parseToSymbols(sourceText);
+        request.setAttribute("parseToSymbols", symbols);
+
+       return "/WEB-INF/result.jsp";
     }
 }

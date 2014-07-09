@@ -1,14 +1,14 @@
 package entity;
 
-public class Symbol {
-    String content;
+public class Symbol implements TextPart {
+    private String symbol;
 
-    public Symbol(String content) {
-        this.content = content;
+    public Symbol(String symbol) {
+        this.symbol = symbol;
     }
 
     @Override
     public String toString() {
-        return content;
+        return symbol;
     }
 }

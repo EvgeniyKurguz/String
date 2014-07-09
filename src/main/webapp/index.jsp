@@ -3,6 +3,7 @@
 
 <fmt:bundle basename="i18n.message">
     <html>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
     <head>
         <title><fmt:message key="title"/></title>
     </head>
