@@ -1,21 +1,20 @@
 package action;
 
 
-import entity.Symbol;
+import entity.Text;
 import parser.Parser;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 
 public class ParseAction implements Action {
+
     @Override
     public String execute(HttpServletRequest request) {
+        Parser parser = new Parser();
         String sourceText = request.getParameter("text");
-
-        List<Symbol> symbols = Parser.parseToSymbols(sourceText);
-        request.setAttribute("parseToSymbols", symbols);
-
+        Text text = parser.parseText(sourceText);
+        request.setAttribute("texttext", text);
         return "/WEB-INF/result.jsp";
     }
 }

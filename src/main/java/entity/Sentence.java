@@ -4,8 +4,26 @@ import java.util.List;
 
 public class Sentence extends AbstractCompoundText<Word> implements TextPart {
 
-    public Sentence(List<Word> components) {
-        super(components);
+    public Sentence() {
+    }
+
+    public void add(Sentence sentence) {
+
+    }
+
+
+    public void add(Word word) {
+
+    }
+
+
+    public void add(String symbSourceString) {
+
+    }
+
+
+    public void add(char[] chars) {
+
     }
 
     public List<Word> getListWord() {
@@ -20,4 +38,5 @@ public class Sentence extends AbstractCompoundText<Word> implements TextPart {
         }
         return result;
     }
+
 }

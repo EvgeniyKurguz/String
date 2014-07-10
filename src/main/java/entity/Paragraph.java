@@ -5,8 +5,25 @@ import java.util.List;
 
 public class Paragraph extends AbstractCompoundText<Sentence> implements TextPart {
 
-    public Paragraph(List<Sentence> components) {
-        super(components);
+    public Paragraph() {
+    }
+
+    public void add(Sentence sentence) {
+
+    }
+
+    public void add(Word word) {
+
+    }
+
+
+    public void add(String symbSourceString) {
+
+    }
+
+
+    public void add(char[] chars) {
+
     }
 
     public List<Sentence> getListSentence() {

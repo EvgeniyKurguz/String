@@ -2,24 +2,33 @@ package entity;
 
 import java.util.List;
 
-public class Word  extends AbstractCompoundText<Symbol> implements TextPart {
+public class Word extends AbstractCompoundText<Symbol> implements SentencePart {
 
-    private Type type;
+    public Word() {
+    }
 
-    public Word(List<Symbol> components) {
-        super(components);
+
+    public void add(Sentence sentence) {
+
+    }
+
+
+    public void add(Word word) {
+
+    }
+
+
+    public void add(String symbSourceString) {
+
+    }
+
+
+    public void add(char[] chars) {
+
     }
 
     public List<Symbol> getListSymbols() {
         return components;
-    }
-
-    public Type getType() {
-        return type;
-    }
-
-    public void setType(Type type) {
-        this.type = type;
     }
 
     @Override
@@ -31,8 +40,5 @@ public class Word  extends AbstractCompoundText<Symbol> implements TextPart {
         return result;
     }
 
-    public enum Type {
-        WORD, SEPARATOR
-    }
 }
 
