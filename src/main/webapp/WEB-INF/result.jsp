@@ -16,7 +16,7 @@
         <h3><fmt:message key="by.symbol"/>:</h3>
         <textarea name="text" rows="30" cols="100">${parseToSymbols}</textarea>
         <br><br><br>
-        <p><a  href="http://localhost:8088/" >Back</a></p>
+       <p><a  href="http://localhost:8088/" >Back</a></p>
         <p>
                 ${param.text}
         </p>
