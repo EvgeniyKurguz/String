@@ -14,7 +14,7 @@
 
         <form action="${pageContext.request.contextPath}/controller" method="post">
 
-            <p><textarea name="text" rows="30" cols="100">
+            <p><textarea name="text" rows="40" cols="100">
                 <%@include file="WEB-INF/input.txt"%>
             </textarea></p>
 
