@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>Kurguz_Task2</groupId>
@@ -10,8 +8,11 @@
     <packaging>war</packaging>
     <properties>
         <java.version>1.8</java.version>
-        <javax.servlet-api.version>3.0.1</javax.servlet-api.version>
-        <javax.servlet.jsp-api.version>2.2.1</javax.servlet.jsp-api.version>
+        <servlet-api.version>3.0.1</servlet-api.version>
+        <jsp-api.version>2.2.1</jsp-api.version>
+        <maven.complier.source>1.8</maven.complier.source>
+        <maven.complier.target>1.8</maven.complier.target>
+        <slf4j.version>1.7.7</slf4j.version>
         <jstl.version>1.2</jstl.version>
     </properties>
 

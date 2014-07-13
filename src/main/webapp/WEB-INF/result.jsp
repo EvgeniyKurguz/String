@@ -6,17 +6,21 @@
     <html>
     <link rel="stylesheet" href="style/style.css" type="text/css">
     <head>
-        <title></title>
+        <title><fmt:message key="title"/></title>
     </head>
     <body>
-    <div style="width:1020px;">
+    <div align="center">
 
         <h3><fmt:message key="index.mytext"/></h3>
+
         <p>
+
         <h3><fmt:message key="by.symbol"/>:</h3>
         <textarea name="text" rows="30" cols="100">${parseToSymbols}</textarea>
-        <br><br><br>
-       <p><a  href="http://localhost:8088/" >Back</a></p>
+        <br><br><br></p>
+
+        <p><a href="http://localhost:8088/">Back</a></p>
+
         <p>
                 ${param.text}
         </p>

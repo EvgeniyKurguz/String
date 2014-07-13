@@ -8,17 +8,16 @@
         <title><fmt:message key="title"/></title>
     </head>
     <body>
-    <div>
+    <div align="center">
 
         <p><fmt:message key="index.input.text"/></p>
 
         <form action="${pageContext.request.contextPath}/controller" method="post">
 
-            <p><textarea name="text" rows="40" cols="100">
+            <p><textarea name="text" rows="30" cols="100" class="center">
                 <%@include file="WEB-INF/input.txt"%>
             </textarea></p>
-
-            <p><input type="submit" fmt:message key="index.submit"/></p>
+            <p><input type="Submit" value="<fmt:message key="Submit"/>"/></p>
         </form>
     </div>
     </body>

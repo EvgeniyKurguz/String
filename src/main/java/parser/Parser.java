@@ -34,6 +34,7 @@ public class Parser {
         for (String wordSourceString : wordSourceStrings) {
             Word word = parseWord(wordSourceString);
             sentence.add(word);
+
         }
         return sentence;
     }
