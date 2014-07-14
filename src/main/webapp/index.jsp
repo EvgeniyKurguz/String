@@ -10,7 +10,7 @@
     <body>
     <div align="center">
 
-        <p><fmt:message key="index.input.text"/></p>
+        <h2 style="color:#FFFFFF"><fmt:message key="index.input.text" /></h2>
 
         <form action="${pageContext.request.contextPath}/controller" method="post">
 
