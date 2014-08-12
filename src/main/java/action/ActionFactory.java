@@ -5,7 +5,7 @@ import java.util.Map;
 
 
 public class ActionFactory {
-    private Map<String, Action> actionMap = new HashMap<>();
+    private Map<String, Action> actionMap = new HashMap<String, Action>();
 
     public ActionFactory(Map<String, Action> actionMap) {
         this.actionMap = actionMap;

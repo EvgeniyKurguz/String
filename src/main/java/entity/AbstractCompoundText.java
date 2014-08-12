@@ -8,7 +8,7 @@ public class AbstractCompoundText<T extends TextPart> implements CompoundText {
     public List<T> components;
 
     protected AbstractCompoundText() {
-        components =new ArrayList<>();
+        components =new ArrayList<T>();
     }
 
     public void add(Paragraph paragraph) {

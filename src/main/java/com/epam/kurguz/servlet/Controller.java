@@ -17,7 +17,7 @@ public class Controller extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
 
-        Map<String, Action> actionMap = new HashMap<>();
+        Map<String, Action> actionMap = new HashMap< String, Action>();
         actionMap.put("parse", new ParseAction());
         ActionFactory actionFactory = new ActionFactory(actionMap);
         String result = actionFactory.getAction("parse").execute(request);
